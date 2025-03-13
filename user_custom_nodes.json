@@ -1,3 +1,14 @@
-
-[]
-      
+[
+  {
+    "url": "https://github.com/black-forest-labs/flux.git",
+    "name": "flux.git",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {},
+    "nodes": [],
+    "pip": [],
+    "apt": [],
+    "sha": "",
+    "cached": "False"
+  }
+]
