@@ -10,5 +10,28 @@
     "apt": [],
     "sha": "",
     "cached": "False"
+  },
+  {
+    "name": "ComfyUI-Flux-Inpainting",
+    "url": "https://github.com/rubi-du/ComfyUI-Flux-Inpainting",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "duhaifeng",
+      "title": "ComfyUI-Flux-Inpainting",
+      "reference": "https://github.com/rubi-du/ComfyUI-Flux-Inpainting",
+      "files": [
+        "https://github.com/rubi-du/ComfyUI-Flux-Inpainting"
+      ],
+      "install_type": "git-clone",
+      "description": "This node wraps the flux fill model as ComfyUI nodes. Use NF4 flux fill model, support for inpainting and outpainting image. Compared to the flux fill dev model, these nodes can use the flux fill model to perform inpainting and outpainting work under lower VRM conditions."
+    },
+    "nodes": [
+      "Flux Inpainting"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
   }
 ]
