@@ -311,5 +311,17 @@
     "pip": [],
     "preemptions": [],
     "cached": "False"
+  },
+  {
+    "url": "https://github.com/jakechai/ComfyUI-JakeUpgrade.git",
+    "name": "ComfyUI-JakeUpgrade.git",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {},
+    "nodes": [],
+    "pip": [],
+    "apt": [],
+    "sha": "",
+    "cached": "False"
   }
 ]
