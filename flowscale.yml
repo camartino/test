@@ -17,3 +17,7 @@ normal_workflows:
     name: testmarz.json
     file: mar/testmarz.json
     version: 0
+  - id: avg8kmymsmr
+    name: inpainting.json
+    file: mar/inpainting.json
+    version: 0
