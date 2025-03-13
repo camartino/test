@@ -106,5 +106,210 @@
     "pip": [],
     "preemptions": [],
     "cached": "False"
+  },
+  {
+    "name": "WAS Node Suite",
+    "url": "https://github.com/WASasquatch/was-node-suite-comfyui",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "WASasquatch",
+      "title": "WAS Node Suite",
+      "id": "was",
+      "reference": "https://github.com/WASasquatch/was-node-suite-comfyui",
+      "files": [
+        "https://github.com/WASasquatch/was-node-suite-comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "A node suite for ComfyUI with many new nodes, such as image processing, text processing, and more."
+    },
+    "nodes": [
+      "Text List",
+      "Text List to Text",
+      "Text Multiline"
+    ],
+    "apt": [],
+    "pip": [
+      "numba"
+    ],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "ComfyUI's ControlNet Auxiliary Preprocessors",
+    "url": "https://github.com/Fannovel16/comfyui_controlnet_aux",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "Fannovel16",
+      "title": "ComfyUI's ControlNet Auxiliary Preprocessors",
+      "id": "comfyui_controlnet_aux",
+      "reference": "https://github.com/Fannovel16/comfyui_controlnet_aux",
+      "files": [
+        "https://github.com/Fannovel16/comfyui_controlnet_aux"
+      ],
+      "install_type": "git-clone",
+      "description": "Plug-and-play ComfyUI node sets for making ControlNet hint images."
+    },
+    "nodes": [
+      "ImageGenResolutionFromImage",
+      "ImageGenResolutionFromImage"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [
+      "AIO_Preprocessor",
+      "AnimalPosePreprocessor",
+      "AnimeFace_SemSegPreprocessor",
+      "AnimeLineArtPreprocessor",
+      "BAE-NormalMapPreprocessor",
+      "BinaryPreprocessor",
+      "CannyEdgePreprocessor",
+      "ColorPreprocessor",
+      "DSINE-NormalMapPreprocessor",
+      "DWPreprocessor",
+      "DensePosePreprocessor",
+      "DepthAnythingPreprocessor",
+      "DiffusionEdge_Preprocessor",
+      "FacialPartColoringFromPoseKps",
+      "FakeScribblePreprocessor",
+      "HEDPreprocessor",
+      "HintImageEnchance",
+      "ImageGenResolutionFromImage",
+      "ImageGenResolutionFromLatent",
+      "ImageIntensityDetector",
+      "ImageLuminanceDetector",
+      "InpaintPreprocessor",
+      "LeReS-DepthMapPreprocessor",
+      "LineArtPreprocessor",
+      "LineartStandardPreprocessor",
+      "M-LSDPreprocessor",
+      "Manga2Anime_LineArt_Preprocessor",
+      "MaskOptFlow",
+      "MediaPipe-FaceMeshPreprocessor",
+      "MeshGraphormer-DepthMapPreprocessor",
+      "MiDaS-DepthMapPreprocessor",
+      "MiDaS-NormalMapPreprocessor",
+      "OneFormer-ADE20K-SemSegPreprocessor",
+      "OneFormer-COCO-SemSegPreprocessor",
+      "OpenposePreprocessor",
+      "PiDiNetPreprocessor",
+      "PixelPerfectResolution",
+      "SAMPreprocessor",
+      "SavePoseKpsAsJsonFile",
+      "ScribblePreprocessor",
+      "Scribble_XDoG_Preprocessor",
+      "SemSegPreprocessor",
+      "ShufflePreprocessor",
+      "TEEDPreprocessor",
+      "TilePreprocessor",
+      "UniFormer-SemSegPreprocessor",
+      "Unimatch_OptFlowPreprocessor",
+      "Zoe-DepthMapPreprocessor",
+      "Zoe_DepthAnythingPreprocessor"
+    ],
+    "cached": "False"
+  },
+  {
+    "name": "Comfyroll Studio",
+    "url": "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "Suzie1",
+      "title": "Comfyroll Studio",
+      "id": "comfyroll",
+      "reference": "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes",
+      "files": [
+        "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Custom nodes for SDXL and SD1.5 including Multi-ControlNet, LoRA, Aspect Ratio, Process Switches, and many more nodes. NOTE: Maintainer is changed to Suzie1 from RockOfFire. [w/Using an outdated version has resulted in reported issues with updates not being applied. Trying to reinstall the software is advised.]"
+    },
+    "nodes": [
+      "CR Color Panel"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "ComfyUI-Florence2",
+    "url": "https://github.com/kijai/ComfyUI-Florence2",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "kijai",
+      "title": "ComfyUI-Florence2",
+      "id": "florence2-kijai",
+      "reference": "https://github.com/kijai/ComfyUI-Florence2",
+      "files": [
+        "https://github.com/kijai/ComfyUI-Florence2"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes to use Florence2 VLM for image vision tasks: object detection, captioning, segmentation and ocr"
+    },
+    "nodes": [
+      "DownloadAndLoadFlorence2Model",
+      "Florence2Run",
+      "Florence2Run",
+      "Florence2Run"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [
+      "DownloadAndLoadFlorence2Lora",
+      "DownloadAndLoadFlorence2Model",
+      "Florence2ModelLoader",
+      "Florence2Run"
+    ],
+    "cached": "False"
+  },
+  {
+    "name": "comfyui-tensorop",
+    "url": "https://github.com/un-seen/comfyui-tensorops",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "un-seen",
+      "title": "comfyui-tensorop",
+      "id": "comfyui-tensorop",
+      "reference": "https://github.com/un-seen/comfyui-tensorops",
+      "files": [
+        "https://github.com/un-seen/comfyui-tensorops"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes to perform tensor operations in ComfyUI"
+    },
+    "nodes": [
+      "DownloadAndLoadFlorence2Model",
+      "Florence2Run",
+      "Florence2Run",
+      "Florence2Run"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "rgthree-comfy.git",
+    "url": "https://github.com/rgthree/rgthree-comfy.git",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "Unknown",
+      "title": "rgthree-comfy.git",
+      "files": [
+        "https://github.com/rgthree/rgthree-comfy.git"
+      ],
+      "install_type": "git-clone"
+    },
+    "nodes": "Fast Groups Muter (rgthree)",
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
   }
 ]
