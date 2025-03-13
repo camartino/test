@@ -21,3 +21,7 @@ normal_workflows:
     name: inpainting.json
     file: mar/inpainting.json
     version: 0
+  - id: frat9motnd7
+    name: alimama-flux-controlnet-inpaint.json
+    file: mar/alimama-flux-controlnet-inpaint.json
+    version: 0
