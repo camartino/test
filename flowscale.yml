@@ -33,3 +33,7 @@ normal_workflows:
     name: flux-insert-character-v5.json
     file: mar/flux-insert-character-v5.json
     version: 0
+  - id: akohbqia2hu
+    name: fluxinsertcharacterv53.json
+    file: mar/fluxinsertcharacterv53.json
+    version: 0
