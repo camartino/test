@@ -29,3 +29,7 @@ normal_workflows:
     name: inpaint-final.json
     file: mar/inpaint-final.json
     version: 0
+  - id: o44pqjqeido
+    name: flux-insert-character-v5.json
+    file: mar/flux-insert-character-v5.json
+    version: 0
